@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+ Error and noResult div stylings
+*/
+#error {
+    display: none;
+    color: red;
+    border: 2px solid red;
+    background-color: #ffc8c8;
+}
+
+#noResult {
+    display: none;
+}
+
+/* 
+    Styling for contact form and its items
+*/
+.contact-form {
+    width: 80%;
+    min-height: 100px;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6dc4ec;
+    border: 2px solid rgb(18, 104, 138);
+    border-radius: 10px;
+}
+
+.generic-form,
+.centered-text {
+    width: 100%;
+    text-align: center;
+}
+
+.form-item {
+    width: 25%;
+    display: inline;
+    margin: 10px 3px;
+    padding: 5px;
+}
+
+.form-item button {
+    padding: 5px;
+}
+
+/*
+    Styling for search form
+*/
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-form input {
+    border: 1px solid rgb(202, 202, 202);
+    padding: 5px;
+}
+
+/* 
+    Styling for table and its container
+*/
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.contact-container table {
+    border-collapse: collapse;
+}
+
+/* 
+    Make odd table data rows a background color of #f2f2f2 
+*/
+.contact-container table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.contact-container th,
+.contact-container td {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.contact-container th {
+    cursor: pointer;
+}

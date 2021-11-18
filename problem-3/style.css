@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form styling for the search form */
+.form-container {
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form{
+    width: 90%;
+    text-align: center;
+}
+
+.form-item {
+    width: 60%;
+    min-width: 300px;
+}
+
+.form-item button {
+    width: 120px;
+    border-radius: 8px;
+}
+
+.form-item,
+.form-item button {
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Styling main body */
+.main-body-container {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: auto;
+}
+
+/* Style profile and repo containers */
+.left-container,
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 500px;
+    min-width: 380px;
+    margin-top: 1%;
+}
+
+.user-profile-container,
+.user-repo-container {
+    height: 600px;
+    border: 2px solid black;
+} 
+
+.user-repo-container {
+    overflow: auto;
+}
+
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+/* Style profile picture */
+.profile-picture {
+    height: 47%;
+    width: 80%;
+    margin: 2.5%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.profile-info-container,
+.repo-info-container {
+    width: 100%;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.profile-info-container {
+    height: 10%;
+}
+
+.repo-info-container {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
